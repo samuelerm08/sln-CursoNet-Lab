@@ -24,7 +24,7 @@ namespace WindowsApp
         public WindowsApp()
         {
             InitializeComponent();
-        }     
+        }
 
         private void Crear(object sender, EventArgs e)
         {
@@ -34,15 +34,12 @@ namespace WindowsApp
                            textBoxProveedor.Text,
                            textBoxCategoria.Text, textBoxSubCategoria.Text);
 
-            checkIva.Tag = Producto.IVA;            
+            checkIva.Tag = Producto.IVA;
+            Producto.PrecioCosto *= numProducts.Value;
 
             MessageBox.Show("¡Producto Creado!");
+            listProducts.Items.Add(Producto.ToString());
 
-            for (int i = 0; i < numProducts.Value; i++)
-            {
-                listProducts.Items.Add(Producto.ToString());
-            }
-            
             textBoxNombre.ResetText();
             textBoxDescripcion.ResetText();
             textBoxPrecioCosto.ResetText();
@@ -55,7 +52,7 @@ namespace WindowsApp
         private void Vendedor(object sender, EventArgs e)
         {
             var v = new Vendedor("Samuel", "samuelrm08@gmail.com", "11 9999-8888", "CABA", "Rivera", "46766847");
-           
+
             MessageBox.Show(v.ToString());
         }
 
