@@ -17,6 +17,7 @@ using Entidades.Entidades.Producto;
 using Negocio.Listado;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
+
 namespace WindowsApp
 {
     public partial class WindowsApp : Form
@@ -27,7 +28,8 @@ namespace WindowsApp
         }
 
         private void Crear(object sender, EventArgs e)
-        {
+        {            
+
             var Producto = new Producto(textBoxNombre.Text, textBoxDescripcion.Text,
                            Convert.ToDecimal(textBoxPrecioCosto.Text.Replace(".", ",")),
                            Convert.ToDouble(textBoxMargen.Text.Replace(".", ",")),

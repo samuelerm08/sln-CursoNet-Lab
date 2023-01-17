@@ -80,7 +80,7 @@
             this.button4.Location = new System.Drawing.Point(237, 85);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(66, 34);
-            this.button4.TabIndex = 4;
+            this.button4.TabIndex = 9;
             this.button4.Text = "Agregar";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.Crear);
@@ -90,49 +90,49 @@
             this.textBoxNombre.Location = new System.Drawing.Point(113, 45);
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(100, 20);
-            this.textBoxNombre.TabIndex = 11;
+            this.textBoxNombre.TabIndex = 0;
             // 
             // textBoxDescripcion
             // 
             this.textBoxDescripcion.Location = new System.Drawing.Point(113, 71);
             this.textBoxDescripcion.Name = "textBoxDescripcion";
             this.textBoxDescripcion.Size = new System.Drawing.Size(100, 20);
-            this.textBoxDescripcion.TabIndex = 12;
+            this.textBoxDescripcion.TabIndex = 1;
             // 
             // textBoxSubCategoria
             // 
             this.textBoxSubCategoria.Location = new System.Drawing.Point(113, 151);
             this.textBoxSubCategoria.Name = "textBoxSubCategoria";
             this.textBoxSubCategoria.Size = new System.Drawing.Size(100, 20);
-            this.textBoxSubCategoria.TabIndex = 13;
+            this.textBoxSubCategoria.TabIndex = 4;
             // 
             // textBoxCategoria
             // 
             this.textBoxCategoria.Location = new System.Drawing.Point(113, 125);
             this.textBoxCategoria.Name = "textBoxCategoria";
             this.textBoxCategoria.Size = new System.Drawing.Size(100, 20);
-            this.textBoxCategoria.TabIndex = 14;
+            this.textBoxCategoria.TabIndex = 3;
             // 
             // textBoxProveedor
             // 
             this.textBoxProveedor.Location = new System.Drawing.Point(113, 99);
             this.textBoxProveedor.Name = "textBoxProveedor";
             this.textBoxProveedor.Size = new System.Drawing.Size(100, 20);
-            this.textBoxProveedor.TabIndex = 15;
+            this.textBoxProveedor.TabIndex = 2;
             // 
             // textBoxMargen
             // 
             this.textBoxMargen.Location = new System.Drawing.Point(113, 201);
             this.textBoxMargen.Name = "textBoxMargen";
             this.textBoxMargen.Size = new System.Drawing.Size(100, 20);
-            this.textBoxMargen.TabIndex = 17;
+            this.textBoxMargen.TabIndex = 6;
             // 
             // textBoxPrecioCosto
             // 
             this.textBoxPrecioCosto.Location = new System.Drawing.Point(113, 175);
             this.textBoxPrecioCosto.Name = "textBoxPrecioCosto";
             this.textBoxPrecioCosto.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPrecioCosto.TabIndex = 18;
+            this.textBoxPrecioCosto.TabIndex = 5;
             // 
             // label3
             // 
@@ -220,7 +220,7 @@
             this.checkIva.Location = new System.Drawing.Point(113, 226);
             this.checkIva.Name = "checkIva";
             this.checkIva.Size = new System.Drawing.Size(15, 14);
-            this.checkIva.TabIndex = 29;
+            this.checkIva.TabIndex = 7;
             this.checkIva.UseVisualStyleBackColor = true;
             // 
             // listProducts
@@ -237,7 +237,7 @@
             this.numProducts.Location = new System.Drawing.Point(237, 59);
             this.numProducts.Name = "numProducts";
             this.numProducts.Size = new System.Drawing.Size(66, 20);
-            this.numProducts.TabIndex = 31;
+            this.numProducts.TabIndex = 8;
             // 
             // label1
             // 
@@ -257,7 +257,7 @@
             this.button2.Location = new System.Drawing.Point(346, 99);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(97, 80);
-            this.button2.TabIndex = 34;
+            this.button2.TabIndex = 10;
             this.button2.Text = "Mostrar";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.Vendedor);
@@ -270,7 +270,7 @@
             this.button3.Location = new System.Drawing.Point(405, 226);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(97, 80);
-            this.button3.TabIndex = 35;
+            this.button3.TabIndex = 13;
             this.button3.Text = "Mostrar";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.Remito);
@@ -283,7 +283,7 @@
             this.button5.Location = new System.Drawing.Point(536, 226);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(97, 80);
-            this.button5.TabIndex = 36;
+            this.button5.TabIndex = 14;
             this.button5.Text = "Mostrar";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.Factura);
@@ -296,7 +296,7 @@
             this.button6.Location = new System.Drawing.Point(605, 99);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(97, 80);
-            this.button6.TabIndex = 37;
+            this.button6.TabIndex = 12;
             this.button6.Text = "Mostrar";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.Cliente);
@@ -309,7 +309,7 @@
             this.button7.Location = new System.Drawing.Point(478, 99);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(97, 80);
-            this.button7.TabIndex = 38;
+            this.button7.TabIndex = 11;
             this.button7.Text = "Mostrar";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.Empresa);
